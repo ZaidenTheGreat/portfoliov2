@@ -1,0 +1,16 @@
+*.glb filter=lfs diff=lfs merge=lfs -text
+*.file_extension filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.pack filter=lfs diff=lfs merge=lfs -text
+path/to/your/file filter=lfs diff=lfs merge=lfs -text
+public/background/*.png filter=lfs diff=lfs merge=lfs -text
+public/models/*.glb filter=lfs diff=lfs merge=lfs -text
+public/audio/* !text !filter !merge !diff
+public/models/* !text !filter !merge !diff
+*.large_file_extension filter=lfs diff=lfs merge=lfs -text
+public/background/projects-background.png filter=lfs diff=lfs merge=lfs -text
+public/resume.pdf filter=lfs diff=lfs merge=lfs -text

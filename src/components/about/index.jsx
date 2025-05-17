@@ -1,4 +1,4 @@
-import React from "react"; 
+import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -87,12 +87,11 @@ const AboutDetails = () => {
 
           {/* Organizations */}
           <div className="flex-1">
-            <h2 className="text-xl md:text-2xl w-full capitalize">Certifactions</h2>
+            <h2 className="text-xl md:text-2xl w-full capitalize">Certifications</h2>
             <div className="font-light text-xs sm:text-sm md:text-base mt-4">
               <p className="font-semibold">CompTIA Security+ (SY0-701)</p>
               <p className="font-light">May 2025 – May 2028</p>
-              <p className="font-light mt-2">
-              </p>
+              <p className="font-light mt-2"></p>
             </div>
           </div>
 
@@ -100,14 +99,16 @@ const AboutDetails = () => {
           <div className="flex-1">
             <h2 className="text-xl md:text-2xl w-full capitalize">About Me</h2>
             <div className="font-light text-xs sm:text-sm md:text-base mt-4">
-              I'm a laid-back yet driven individual who dreams big and puts in the work to back it up. Currently, I'm pursuing a bachelor's degree in computer science at Georgia State University, with my sights set on transferring to my dream school—Georgia Tech. Every credit I earn brings me closer to making that a reality.
-
-As you can see from my background images, I’ve always had a fascination with space—but my favorite kind of space is cyberspace. I’m passionate about cybersecurity and aim to become a professional who protects systems, data, and people from digital threats. I want to use my skills to make a real impact—safeguarding the digital world and helping shape a more secure future.
-
-Outside of tech, I’m a fan of Dragon Ball Z. If you’ve enabled background music, you're probably hearing Tapion’s theme playing right now.
-
-Thanks for stopping by and getting to know me.
-I'd appreciate it if you would check out my contact page and shoot me a review of my portfolio. Thanks!
+              I&apos;m a laid-back yet driven individual who dreams big and puts in the work to back it up. Currently, I&apos;m pursuing a bachelor&apos;s degree in computer science at Georgia State University, with my sights set on transferring to my dream school—Georgia Tech. Every credit I earn brings me closer to making that a reality.
+              <br />
+              <br />
+              As you can see from my background images, I&apos;ve always had a fascination with space—but my favorite kind of space is cyberspace. I&apos;m passionate about cybersecurity and aim to become a professional who protects systems, data, and people from digital threats. I want to use my skills to make a real impact—safeguarding the digital world and helping shape a more secure future.
+              <br />
+              <br />
+              Outside of tech, I&apos;m a fan of Dragon Ball Z. If you&apos;ve enabled background music, you&apos;re probably hearing Tapion&apos;s theme playing right now.
+              <br />
+              <br />
+              Thanks for stopping by and getting to know me. I&apos;d appreciate it if you would check out my contact page and shoot me a review of my portfolio. Thanks!
             </div>
           </div>
         </div>
